@@ -27,7 +27,7 @@ namespace estate18032020
             {
                 Uri videoUri = new Uri(txtYouTubeURL.Text);
                 string videoID = HttpUtility.ParseQueryString(videoUri.Query).Get("v");
-                string videoInfoUrl = "http://www.youtube.com/get_video_info?video_id=" + videoID;
+                string videoInfoUrl = "http://www.youtube.com/get_video_info?video_id=" + videoID; //https://www.youtube.com/watch?v=-9b8NRqjUFM
 
 
 

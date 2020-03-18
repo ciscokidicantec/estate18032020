@@ -5,16 +5,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            height: 29px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
             <table>
                 <tr>
-                    <td>
+                    <td class="auto-style1">
                         YouTube URL:
                     </td>
-                    <td>
+                    <td class="auto-style1">
                         <asp:TextBox ID="txtYouTubeURL" runat="server" Text="" Width="450" />
                     </td>
                 </tr>
