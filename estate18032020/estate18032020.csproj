@@ -67,16 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="initform.aspx" />
+    <Content Include="Initform.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="initform.aspx.cs">
-      <DependentUpon>initform.aspx</DependentUpon>
+    <Compile Include="Initform.aspx.cs">
+      <DependentUpon>Initform.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="initform.aspx.designer.cs">
-      <DependentUpon>initform.aspx</DependentUpon>
+    <Compile Include="Initform.aspx.designer.cs">
+      <DependentUpon>Initform.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
